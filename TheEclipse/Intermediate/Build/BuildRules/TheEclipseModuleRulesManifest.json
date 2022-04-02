@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\LD50\\TheEclipse\\Source\\TheEclipse\\TheEclipse.Build.cs",
-		"D:\\LD50\\TheEclipse\\Source\\TheEclipse.Target.cs",
-		"D:\\LD50\\TheEclipse\\Source\\TheEclipseEditor.Target.cs"
+		"E:\\GitStuff\\LD50\\TheEclipse\\Source\\TheEclipse\\TheEclipse.Build.cs",
+		"E:\\GitStuff\\LD50\\TheEclipse\\Source\\TheEclipse.Target.cs",
+		"E:\\GitStuff\\LD50\\TheEclipse\\Source\\TheEclipseEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }
