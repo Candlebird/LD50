@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TheEclipse",
+			"Path": "D:\\LD50\\TheEclipse\\Source\\TheEclipse.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TheEclipseEditor",
+			"Path": "D:\\LD50\\TheEclipse\\Source\\TheEclipseEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
