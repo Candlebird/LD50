@@ -1,2 +1,0 @@
-E:\GitStuff\LD50\TheEclipse\Intermediate\Build\Win64\UE4Editor\Development\TheEclipse\Definitions.TheEclipse.h
-E:\GitStuff\LD50\TheEclipse\Source\TheEclipse\TheEclipse.h
