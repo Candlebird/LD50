@@ -19,10 +19,6 @@ class ATheEclipseCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
-	/** Pawn mesh: 1st person view (arms; seen only by self) */
-	UPROPERTY(VisibleDefaultsOnly, Category=Mesh)
-	USkeletalMeshComponent* Mesh1P;
-
 	/** Gun mesh: 1st person view (seen only by self) */
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 	USkeletalMeshComponent* FP_Gun;
@@ -58,6 +54,10 @@ protected:
 	virtual void BeginPlay();
 
 public:
+	/** Pawn mesh: 1st person view (arms; seen only by self) */
+	UPROPERTY(BlueprintReadOnly, Category = Mesh)
+	USkeletalMeshComponent* Mesh1P;
+
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseTurnRate;
